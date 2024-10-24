@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/fondopng">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -14,17 +15,14 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_width="416dp"
-            android:layout_height="222dp"
-            android:background="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
             app:navigationIcon="@android:drawable/ic_menu_sort_by_size" />
 
         <TextView
@@ -35,26 +33,26 @@
             android:layout_marginTop="80dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="Menú"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="40sp"
-            app:layout_constraintEnd_toStartOf="@+id/amazonImage"
+            app:layout_constraintEnd_toStartOf="@+id/motorImage"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/amazonDesc"
+            android:id="@+id/motorDesc"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
             android:layout_marginStart="18dp"
             android:textColor="@color/lavender"
             android:textSize="14sp"
-            app:layout_constraintEnd_toStartOf="@+id/amazonImage"
+            app:layout_constraintEnd_toStartOf="@+id/motorImage"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/motorName" />
 
         <ImageView
-            android:id="@+id/amazonImage"
+            android:id="@+id/motorImage"
             android:layout_width="0dp"
             android:layout_height="160dp"
             android:layout_marginEnd="16dp"
@@ -73,10 +71,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/amazonImage">
+            app:layout_constraintTop_toBottomOf="@id/motorImage">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/clothingCard"
+                android:id="@+id/datosCard"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
@@ -106,13 +104,13 @@
                         android:layout_height="70dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/lista" />
+                        android:src="@drawable/edit_lista" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/datosview"
+                android:id="@+id/ver_datosview"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
@@ -142,7 +140,7 @@
                         android:layout_height="70dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/ver_lista" />
+                        android:src="@drawable/ver_datos" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>

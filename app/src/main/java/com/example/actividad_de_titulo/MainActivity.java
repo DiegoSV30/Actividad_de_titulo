@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        clothingCard = findViewById(R.id.clothingCard);
-        cardView = findViewById(R.id.datosview);
+        clothingCard = findViewById(R.id.datosCard);
+        cardView = findViewById(R.id.ver_datosview);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
