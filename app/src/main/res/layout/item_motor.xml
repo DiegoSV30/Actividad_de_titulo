@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView android:id="@+id/textBrand" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Marca" android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView android:id="@+id/textType" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Tipo" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textKw" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="KW" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textA220" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="A / 220" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textRpm" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="RPM" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textNr" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="N. R." android:textSize="14sp" />
+
+    <TextView android:id="@+id/textPaso" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Paso" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textVBob" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="V / Bob" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textDiametroAlambre" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Ø Alambre" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textConex" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Conexión" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textD" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="D" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textD2" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="d" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textL" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="L" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textPr" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="P. R." android:textSize="14sp" />
+
+    <TextView android:id="@+id/textPCuK" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="P.cu/K" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textLBob" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="L / Bob" android:textSize="14sp" />
+
+    <TextView android:id="@+id/textMuF" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="μ F" android:textSize="14sp" />
+</LinearLayout>
