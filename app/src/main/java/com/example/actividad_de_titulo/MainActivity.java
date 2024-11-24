@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, IngresarDatos.class);
+                Intent intent = new Intent(MainActivity.this, ViewMotorsActivity.class);
                 startActivity(intent);
             }
         });
